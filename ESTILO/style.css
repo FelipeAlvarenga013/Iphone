@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+/* Corpo do site*/
+body {
+    background: lightslategrey url(../IMAGEM/imagens/fundo-madeira.jpg) left center no-repeat fixed;
+    background-size: 100% 100%;
+    height: 97vh;
+    width: 100vw;
+}
+
+/* Corpo secudario do site */
+main {
+    position: relative;
+}
+
+/* Conteudo do iphone */
+main
+section {
+    top: 64%;
+    left: 50%;
+    width: 250px;
+    height: 450px;
+    max-width: 100%;
+    position: absolute;
+    background:  url(../IMAGEM/imagens/frame-iphone.png) center center no-repeat;
+    background-size: 250px 450px;
+    transform: translate( -50%,-50%);
+}
+
+section
+iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 220px;
+    height: 343px;
+    transform: translate(-50%, -50%);
+    background: url(../IMAGEM/imagens/tela-home.jpg) center no-repeat;
+    background-size: 100% 100%;
+}
+
+aside
+.lista {
+    text-align: right;
+    margin: 15px 5px 0 0;
+}
+
+aside
+.lista
+.listli {
+    margin-bottom: 30px;
+}
+
+ul
+li
+.imgs {
+    width: 48px;
+    height: 43px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px #000;
+}
+
+ul
+li
+.imgs:hover {
+    transform: translate(-4%,-4%);
+    transition: .7s;
+}
+
+
+ul
+li
+#home:hover {
+    box-shadow: 3px 3px 4px #000;
+    outline: 1px solid #fff;
+}
+
+ul
+li
+#youtube:hover {
+    box-shadow: 3px 3px 4px #000; 
+    outline: 1px solid #fff;
+}
+
+ul
+li
+#github:hover {
+    box-shadow: 3px 3px 4px #000; 
+    outline: 1px solid #fff;
+}
+
+ul
+li
+#instagram:hover {
+    box-shadow: 3px 3px 4px #000; 
+    outline: 1px solid #fff;
+}
+
+ul
+li
+#twitte:hover {
+    box-shadow: 3px 3px 4px #000; 
+    outline: 1px solid #fff;
+}
+
+ul
+li
+#facebok:hover {
+    box-shadow: 3px 3px 4px #000; 
+    outline: 1px solid #fff;
+}
